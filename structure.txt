@@ -1,0 +1,19 @@
+mailens/
+├── app/
+│   ├── __init__.py
+│   ├── ui.py              # интерфейс
+│   ├── core.py            # ядро
+│   ├── enhanced_features.py
+│   ├── ensemble_model.py
+│   ├── benchmark.py
+│   └── presentation.py
+├── Dockerfile             
+├── docker-compose.yml     
+├── requirements.txt       
+├── README.md
+├── .gitignore
+├── LICENSE
+└── test_emails/
+    ├── business_proposal.eml
+    ├── customer_complaint.eml
+    └── spam_email.eml

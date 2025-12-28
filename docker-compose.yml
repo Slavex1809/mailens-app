@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./app:/app/app
+      - ./config:/app/config
+      - ./test_emails:/app/test_emails
+    environment:
+      - PYTHONPATH=/app:/app/app
+    restart: unless-stopped
